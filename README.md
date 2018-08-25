@@ -1,2 +1,0 @@
-# Databootcamp
-bootcamp2018
