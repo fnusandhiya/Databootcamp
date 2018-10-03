@@ -119,7 +119,7 @@ SELECT first_name, last_name
 		);
 	
 -- 7c. Find names and email addresses of all Canadian customers.
-SELECT fisrt_name, last_name, email, country
+SELECT first_name, last_name, email, country
 FROM (((customer
 LEFT JOIN address ON customer.address_id = address.address_id)
 LEFT JOIN city ON city.city_id = address.city_id)
